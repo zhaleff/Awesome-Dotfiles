@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="1024" height="511" alt="image" src="https://github.com/user-attachments/assets/4a82c587-d640-47cb-a481-f85d1085543e" />
+<img width="1024" height="511" alt="image" src="https://github.com/user-attachments/assets/732e8a4c-7e9c-4be3-8c81-730e7d4b142b" />
 
 # Linux Dotfiles Index
 
