@@ -51,9 +51,9 @@ https://github.com/user-attachments/assets/f2ebd382-b045-405e-8d6d-fca8eec0d2d4
 - **[AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell)** — A unique Hyprland desktop experience built around NibrasShell, offering a personalized workflow and unconventional UI elements  
 - **[ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration)** — A complete NixOS system configuration integrating Hyprland, showcasing declarative system management with a fully reproducible desktop setup  
 - **[chriztinkrz/nixos-config](https://github.com/chriztinkrz/nixos-config)** — A minimal NixOS configuration with custom theming, designed for users who want a lightweight yet visually consistent environment  
-
-- **[unknown/linux-desktop-setup](#)** — A general-purpose Linux desktop configuration that may include a mix of window managers, theming, and usability-focused customizations  
-- **[unknown/linux-rice](#)** — A personalized Linux rice showcasing custom styling, theming experiments, and user-defined visual enhancements across the desktop
-
+- **[Darkkai44/COZYTILE](https://github.com/chriztinkrz/nixos-config)** — A minimal NixOS configuration with custom theming, designed for users who want a lightweight yet visually consistent environment
+- **[/linux-desktop-setup](https://github.com/Darkkal44/Cozytile)**: A cozy rice to keep things comfy. I honestly think Qtile is way too underrated—being able to script your whole environment in Python is a superpower
+- **[Szorfein/Vibe](https://github.com/szorfein/dotfiles)** — A personalized Linux rice showcasing custom styling, theming experiments, and user-defined visual enhancements across the desktop
+- **[yutkat/dotfiles](https://github.com/yutkat/dotfiles)** - A beautifully crafted environment built on Hyperland, Arch Linux; a simple yet powerful environment
 
 site web: https://awesome-dotfiles.web.app
