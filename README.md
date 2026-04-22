@@ -42,6 +42,7 @@ A curated index of Linux desktop configurations — submitted and browsed on **[
 - **[zhaleff/BlackNode](https://github.com/zhaleff/BlackNode)** — A dark, minimalist Hyprland environment with charcoal backgrounds and sharp contrast. No bloat, just a polished daily driver. `by zhaleff`
 - **[zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft)** — A meticulously crafted Hyprland setup for Arch, focused on aesthetics, consistency, and usability. Catppuccin Mocha colors throughout. `by zhaleff`
 - **[caioax/lyne-dots](https://github.com/caioax/lyne-dots)** — Full Arch + Hyprland desktop with custom Quickshell components and the distinctive Lyne aesthetic. `by caioax`
+   **[cybersnake223](https://github.com/Cybersnake223/Hypr)** — A minimal, keyboard-driven Hyprland dotfiles setup for Arch Linux. Laptop-first. Script-heavy. Zero bloat.  `by cybersnake223`
 - **[leaf — caelestiax](https://github.com/Axenide/Ambxst)** — Caelestiax frame with AI modules and extra integrations running on Hyprland. `by leaf`
 - **[leaf — hyprland retro](https://github.com/Axenide/Ambxst)** — The Ambxst shell in a retro frame — a nostalgic take on the Hyprland desktop. `by leaf`
 - **[anonymous — hyprland ambxst](https://github.com)** — Ambxst Quickshell on Hyprland with clean, well-designed modules. `by anonymous`
