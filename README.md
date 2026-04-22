@@ -4,98 +4,118 @@
 
 # awesome-dotfiles
 
+[![Entries](https://img.shields.io/badge/dotfiles-34-blueviolet?style=flat-square)](https://awesome-dotfiles.web.app)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com)
-[![Entries](https://img.shields.io/badge/dotfiles-19-blueviolet?style=flat-square)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com)
 
-A curated index of Linux desktop configurations — handpicked from the community.  
-Browse, steal ideas, share yours.
+A curated index of Linux desktop configurations — submitted and browsed on **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)**.
 
-**[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)**
+> 🖼️ Every entry here has a screenshot, color palette, dotfiles link and full details on the website.  
+> This list is just the index — head over there to see everything.
 
 </div>
-
----
 
 ## Table of Contents
 
 - [Arch Linux](#arch-linux)
   - [Hyprland](#hyprland)
-  - [Niri](#niri)
+  - [Sway](#sway)
   - [Qtile](#qtile)
+  - [dwm](#dwm)
+  - [AwesomeWM](#awesomewm)
+  - [Other](#other---arch)
 - [NixOS](#nixos)
 - [EndeavourOS](#endeavouros)
+- [Fedora](#fedora)
 - [Void Linux](#void-linux)
-
----
+- [Contributing](#contributing)
 
 ## Arch Linux
 
 ### Hyprland
 
-- **[linuxmobile/shin](https://github.com/linuxmobile/shin)** `Arch` — A visually refined Hyprland setup focused on aesthetics, featuring a fully customized shell, smooth animations, and a cohesive design language across all UI components. `by linuxmobile`
+| Title | Author | Repo |
+|-------|--------|------|
+| Omarchy + Catppuccin Mocha Theme | Eshayat Al-Wasiu | [ESHAYAT102/dotfiles](https://github.com/ESHAYAT102/dotfiles) |
+| AM i A psYcHo? | aloy555 | [working_on_it.com](https://working_on_it.com) |
+| NAnDoroid-Shell | na-ive | [na-ive/nandoroid-shell](https://github.com/na-ive/nandoroid-shell) |
+| Hyprland Aura Soft | leaf | — |
+| Hyprland with rosepine | linuxmobile | [linuxmobile/hyprland-dots](https://github.com/linuxmobile/hyprland-dots) |
+| BlackNode | zhaleff | [zhaleff/BlackNode](https://github.com/zhaleff/BlackNode) |
+| caelestiax | leaf | [Axenide/Ambxst](https://github.com/Axenide/Ambxst) |
+| HyprCraft | zhaleff | [zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft) |
+| Hyprcraft // Crafting beautiful environment | zhaleff | [zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft) |
+| Lyne-dots | caioax | [caioax/lyne-dots](https://github.com/caioax/lyne-dots) |
+| hyprland ambxst | anonymous | — |
+| BixOS | Bixer234 | [Bixer234/Dots](https://github.com/Bixer234/Dots) |
+| Symphony | vyrx-dev | [vyrx-dev/symphony](https://github.com/vyrx-dev/symphony.git) |
+| hyprland retro | leaf | [Axenide/Ambxst](https://github.com/Axenide/Ambxst) |
+| cebem1nt's dotfiles | cebem1nt | [cebem1nt/dotfiles](https://github.com/cebem1nt/dotfiles) |
+| Moonveil dots | notcandy001 | [notcandy001/Moonveil](https://github.com/notcandy001/Moonveil) |
+| Old Hyprland Rice | linuxmobile | [linuxmobile/hyprland-dots](https://github.com/linuxmobile/hyprland-dots) |
 
-- **[linuxmobile — old rice](https://github.com/linuxmobile)** `Arch` — An earlier iteration of linuxmobile's desktop: already polished, showcasing the same attention to detail that defined later setups. `by linuxmobile`
+### Sway
 
-- **[cebem1nt/dotfiles](https://github.com/cebem1nt/dotfiles)** `Arch` — A clean and minimal Hyprland configuration that prioritizes simplicity, performance, and a distraction-free workflow. `by cebem1nt`
-
-- **[zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft)** `Arch` — A dark-themed Hyprland rice built around a consistent palette, integrating a custom Waybar design and a structured, modern layout. `by zhaleff`
-
-- **[zhaleff/BlackNode](https://github.com/zhaleff/BlackNode)** `Arch` — A monochrome Hyprland environment emphasizing sharp contrast, minimalism, and a highly polished visual identity. `by zhaleff`
-
-- **[caioax/lyne-dots](https://github.com/caioax/lyne-dots)** `Arch` — A Hyprland setup inspired by the Lyne aesthetic, combining unique theming choices with a stylized and recognizable interface. `by caioax`
-
-- **[na-ive/nandoroid-shell](https://github.com/na-ive/nandoroid-shell)** `Arch` — A Quickshell-powered Hyprland desktop inspired by Android custom ROMs, bringing a familiar mobile UI language to the Linux desktop. `by na-ive`
-
-- **[AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell)** `Arch` — A unique Hyprland desktop experience built around NibrasShell, offering a personalized workflow and unconventional UI elements. `by AhmedSaadi0`
-
-- **[vyrx-dev/dotfiles](https://github.com/vyrx-dev/dotfiles.git)** `Arch` — A no-frills Hyprland configuration built for getting actual work done. Deliberately minimal — productivity takes priority over eye candy. `by vyrx-dev`
-
-- **[yutkat/dotfiles](https://github.com/yutkat/dotfiles)** `Arch` — A beautifully crafted Hyprland environment that balances simplicity with power — clean enough to stay out of the way, expressive enough to impress. `by yutkat`
-
-- **[leaf — Aura](https://github.com)** `Arch` — A soft-palette Hyprland rice centered around the Aura aesthetic: gentle tones, careful spacing, and a quietly elegant atmosphere. `by leaf`
-
-- **[ESHAYAT102/dotfiles](https://github.com/ESHAYAT102/dotfiles)** `Arch` — A clean Hyprland setup running Omarchy with a Catppuccin Mocha theme, Ghostty terminal, and fish shell — minimal and well-put-together. `by Eshayat Al-Wasiu`
-
-### Niri
-
-- **[AyushKr2003/niri-caelestia-shell](https://github.com/AyushKr2003/niri-caelestia-shell)** `Arch` — The Caelestia shell ported to the Niri window manager, bringing a config editor, battery monitor, enhanced workspace bar with app icons, clipboard manager, keybind search, and Niri IPC dashboard controls. `by AyushKr2003`
+| Title | Author | Repo |
+|-------|--------|------|
+| Productivity setup | vyrx-dev | [vyrx-dev/dotfiles](https://github.com/vyrx-dev/dotfiles.git) |
 
 ### Qtile
 
-- **[Darkkal44/Cozytile](https://github.com/Darkkal44/Cozytile)** `Arch` — A cozy Qtile rice that proves how underrated the WM really is. Scripting your entire environment in Python is a superpower, and this setup wears it well. `by Darkkal44`
+| Title | Author | Repo |
+|-------|--------|------|
+| ❄️ COZYTILE - A cozy qtile rice ❄️ | Darkkal44 | [Darkkal44/Cozytile](https://github.com/Darkkal44/Cozytile) |
 
----
+### dwm
+
+| Title | Author | Repo |
+|-------|--------|------|
+| DWM old rice | linuxmobile | [linuxmobile](https://github.com/linuxmobile) |
+
+### AwesomeWM
+
+| Title | Author | Repo |
+|-------|--------|------|
+| Awesome WM | linuxmobile | [linuxmobile](https://github.com/linuxmobile) |
+
+### Other — Arch
+
+| Title | Author | Repo |
+|-------|--------|------|
+| Niri-Caelestia Shell | AyushKr2003 | [AyushKr2003/niri-caelestia-shell](https://github.com/AyushKr2003/niri-caelestia-shell) |
+| old rice with openbox | linuxmobile | [linuxmobile](https://github.com/linuxmobile) |
+| openbox & android old rice | linuxmobile | [linuxmobile](https://github.com/linuxmobile) |
 
 ## NixOS
 
-- **[ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration)** `NixOS` — A complete NixOS system configuration integrating Hyprland, showcasing declarative system management with a fully reproducible desktop setup. `by ilyamiro`
-
-- **[chriztinkrz/nixos-config](https://github.com/chriztinkrz/nixos-config)** `NixOS` — A minimal NixOS configuration with custom theming, designed for users who want a lightweight yet visually consistent environment. `by chriztinkrz`
-
----
+| Title | Author | Repo |
+|-------|--------|------|
+| personal dotfiles | chriztinkrz | [chriztinkrz/nixos-config](https://github.com/chriztinkrz/nixos-config) |
+| Hyprland + Waybar | yutkat | [yutkat/dotfiles](https://github.com/yutkat/dotfiles) |
+| Old Gnome Rice on nixOS | linuxmobile | [linuxmobile/shin](https://github.com/linuxmobile/shin) |
+| Old NixOS rice | linuxmobile | [linuxmobile/shin](https://github.com/linuxmobile/shin) |
+| Imperative-dots | @ilyamiro | [ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration) |
 
 ## EndeavourOS
 
-- **[LofiGhoul/Dotfiles](https://github.com/LofiGhoul/Dotfiles/tree/Spring-aestethic)** `EndeavourOS` — A spring-inspired Hyprland configuration with calming colors, balanced spacing, and a relaxed visual atmosphere. `by LofiGhoul`
+| Title | Author | Repo |
+|-------|--------|------|
+| Hillside reverie, a cozy spring hyprland theme | LofiGhoul | [LofiGhoul/Dotfiles](https://github.com/LofiGhoul/Dotfiles/tree/Spring-aestethic) |
+| Sway | anonymous | — |
 
----
+## Fedora
+
+| Title | Author | Repo |
+|-------|--------|------|
+| NibrasShell | anonymous | [AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell) |
 
 ## Void Linux
 
-- **[szorfein/dotfiles](https://github.com/szorfein/dotfiles)** `Void` — A polished SwayFX rice with Eww widgets, running on Void Linux — a rare combination that results in a lightweight and visually distinctive desktop. `by Szorfein`
-
-- **[szorfein/vibe](https://github.com/szorfein/dotfiles)** `Void` — A personalized Linux rice showcasing custom styling, theming experiments, and user-defined visual enhancements across the desktop. `by Szorfein`
-
----
+| Title | Author | Repo |
+|-------|--------|------|
+| Vibe | Szorfein | [szorfein/dotfiles](https://github.com/szorfein/dotfiles) |
 
 ## Contributing
 
-Found a setup worth adding? Open a PR or [submit it on the site](https://awesome-dotfiles.web.app).
-
-**Format:**
-```
-- **[user/repo](url)** `Distro` — Short description. `by author`
-```
-
-Please include: GitHub link, distro, WM/DE, and a one-line description.
+Want to add your setup? Submit it on **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)** — screenshots, palette, dotfiles link and all.  
+Once approved it will appear both on the site and in this index.
