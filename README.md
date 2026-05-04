@@ -2,13 +2,13 @@
 
 <img width="1348" height="688" alt="awesome-logo" src="https://github.com/user-attachments/assets/f6dc10de-2901-4995-a5d6-933842294f46" />
 
-# RiceCraft 
+# Awesome Dotfiles
 
 [![Entries](https://img.shields.io/badge/dotfiles-45-blueviolet?style=flat-square)](https://awesome-dotfiles.web.app)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com)
 
-A curated index of Linux desktop configurations — submitted and browsed on **[awesome-dotfiles.web.app](https://ricecraft.vercel.app)**.
+A curated index of Linux desktop configurations — submitted and browsed on **[awesome-dotfiles.vercel.app](https://awesome-dotfiles.vercel.app)**.
 
 > 🖼️ Every screenshot, color palette, and full detail lives on the website. This file is just the index.
 
