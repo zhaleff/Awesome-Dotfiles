@@ -16,7 +16,6 @@ export default function Gallery() {
             <p className="text-[11px] uppercase tracking-[0.25em] text-[#e8ff47] mb-4">Gallery</p>
             <h1 className="text-5xl sm:text-7xl tracking-[-0.04em] leading-[0.9] text-white">
               All rices,<br />
-              <span className="text-white/20">all setups.</span>
             </h1>
           </div>
           <p className="text-sm text-white/30 max-w-xs leading-relaxed lg:mb-2">
