@@ -2,277 +2,253 @@
 
 <img width="1348" height="688" alt="awesome-logo" src="https://github.com/user-attachments/assets/f6dc10de-2901-4995-a5d6-933842294f46" />
 
-# Awesome Dotfiles
 
-[![Entries](https://img.shields.io/badge/dotfiles-45-blueviolet?style=flat-square)](https://awesome-dotfiles.web.app)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com)
+### `~/dotfiles` — a curated gallery of Linux desktop setups
 
-A curated index of Linux desktop configurations — submitted and browsed on **[awesome-dotfiles.vercel.app](https://awesome-dotfiles.vercel.app)**.
+<br>
 
-> Every screenshot, color palette, and full detail lives on the website. This file is just the index.
+[![dotfiles](https://img.shields.io/badge/─%20setups%20indexed%20─-45-a78bfa?style=for-the-badge&labelColor=0d0d14)](https://awesome-dotfiles.web.app)&nbsp;&nbsp;[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-34d399?style=for-the-badge&labelColor=0d0d14)](https://github.com)&nbsp;&nbsp;[![License](https://img.shields.io/badge/license-MIT-60a5fa?style=for-the-badge&labelColor=0d0d14)](https://github.com)
+
+<br>
+
+> Every screenshot, full color palette, and setup detail lives at **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)**
+> This README is the index — the gallery is the destination.
 
 </div>
 
-&nbsp;
+---
 
-## Table of Contents
+## Contents
 
-- [Arch Linux](#arch-linux)
-- [NixOS](#nixos)
-- [EndeavourOS](#endeavouros)
-- [Fedora](#fedora)
-- [Void Linux](#void-linux)
-- [Debian](#debian)
+- [**Arch Linux**](#-arch-linux)
+  - [Hyprland](#hyprland) · [Sway](#sway) · [Qtile](#qtile) · [KDE](#kde) · [Niri](#niri) · [dwm](#dwm) · [AwesomeWM](#awesomewm) · [Other](#other)
+- [**NixOS**](#-nixos)
+- [**EndeavourOS**](#-endeavouros)
+- [**Fedora**](#-fedora)
+- [**Void Linux**](#-void-linux)
+- [**Debian**](#-debian)
+- [**Contributing**](#-contributing)
 
-&nbsp;
+---
 
-#
-# Arch Linux
+<br>
 
-&nbsp;
+## 🐧 Arch Linux
 
-## Hyprland
+<br>
 
-### [ESHAYAT102/dotfiles](https://github.com/ESHAYAT102/dotfiles)
-Minimal Omarchy rice running Catppuccin Mocha, fish shell, and Ghostty terminal. Clean and well put together.
-`by Eshayat Al-Wasiu`
+### Hyprland
 
-### [ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration)
-A NixOS + Hyprland config with an installer that also targets Arch-based distros.
-`by @ilyamiro`
+> The compositor of choice for the community. Smooth animations, flexible tiling, and endless customization.
 
-### [cebem1nt/dotfiles](https://github.com/cebem1nt/dotfiles)
-Modular and extensible Hyprland dots using Waybar, swaync, and rofi. Includes a Spicetify theme, wallpaper picker, and a light/dark theme switcher.
-`by cebem1nt`
+| Setup | Author | Highlights |
+|---|---|---|
+| [ESHAYAT102/dotfiles](https://github.com/ESHAYAT102/dotfiles) | `Eshayat Al-Wasiu` | Minimal Omarchy rice · Catppuccin Mocha · fish shell · Ghostty terminal |
+| [ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration) | `@ilyamiro` | NixOS + Hyprland · installer targets Arch-based distros too |
+| [cebem1nt/dotfiles](https://github.com/cebem1nt/dotfiles) | `cebem1nt` | Modular & extensible · Waybar · swaync · rofi · Spicetify theme · light/dark switcher |
+| [anonymous — hyprland ambxst](https://github.com) | `anonymous` | Ambxst Quickshell · clean, well-designed modules |
+| [Darkkal44/Cozytile](https://github.com/Darkkal44/Cozytile) | `Darkkal44` | Qtile on Hyprland · WM scripted entirely in Python |
+| [Bixer234/Dots](https://github.com/Bixer234/Dots) | `Bixer234` | Personal daily driver · simple and honest |
+| [zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft) | `zhaleff` | Meticulously crafted · focused on aesthetics, consistency, usability |
+| [vyrx-dev/symphony](https://github.com/vyrx-dev/symphony.git) | `vyrx-dev` | Minimal · productivity-first · the setup vyrx-dev wished existed |
+| [zhaleff/BlackNode](https://github.com/zhaleff/BlackNode) | `zhaleff` | Dark & minimalist · charcoal backgrounds · sharp contrast · zero bloat |
+| [caioax/lyne-dots](https://github.com/caioax/lyne-dots) | `caioax` | Custom Quickshell components · distinctive Lyne aesthetic |
+| [notcandy001/Moonveil](https://github.com/notcandy001/Moonveil) | `notcandy001` | Real workflow focus · hand-tuned · barcode-style lockscreen |
+| [linuxmobile/hyprland-dots](https://github.com/linuxmobile/hyprland-dots) | `linuxmobile` | First Hyprland rice · Rosé Pine palette · a community classic |
+| [leaf — Hyprland Aura Soft](https://github.com) | `leaf` | Aura aesthetic · soft palette · gentle tones, quietly elegant |
+| [leaf — caelestiax](https://github.com/Axenide/Ambxst) | `leaf` | Caelestiax frame · AI modules · extra integrations |
+| [leaf — hyprland retro](https://github.com/Axenide/Ambxst) | `leaf` | Ambxst shell · retro frame · nostalgic take on the Hyprland desktop |
+| [cybersnake223/Hypr](https://github.com/Cybersnake223/Hypr) | `cybersnake223` | Minimal & keyboard-driven · laptop-first · script-heavy · zero bloat |
+| [aloy555 — AM i A psYcHo?](https://working_on_it.com) | `aloy555` | Full psycho aesthetic · custom-made wallpaper |
+| [linuxmobile — Old Hyprland Rice](https://github.com/linuxmobile/hyprland-dots) | `linuxmobile` | Older iteration · already showed the attention to detail that defined later setups |
+| [AdiKsOnDev/Monoland](https://github.com/AdiKsOnDev/Monoland) | `AdiKsOn` | Monochromatic · Quickshell widgets · MaterialUI-style · dynamic wallpaper colors |
+| [Grey-007/Hyprmat-dots](https://github.com/Grey-007/Hyprmat-dots) | `Grey-007` | Hyprmat — a Hyprland rice on Arch |
+| [binoymanoj/dotfiles](https://github.com/binoymanoj/dotfiles) | `anonymous` | HyprArch Dots |
+| [krishna4a6av/.config](https://github.com/krishna4a6av/.config) | `anonymous` | Generic but mine · walls: [krishna4a6av/Wallpapers](https://github.com/krishna4a6av/Wallpapers) |
+| [doccnova/serene-hyprland](https://codeberg.org/doccnova/serene-hyprland) | `doccnova` | Artix-centered · GNU Stow · dynamic colors via Matugen & Wallust · scratchpad workspace |
 
-### [anonymous — hyprland ambxst](https://github.com)
-Ambxst Quickshell on Hyprland with clean, well-designed modules.
-`by anonymous`
+<br>
 
-### [Darkkal44/Cozytile](https://github.com/Darkkal44/Cozytile)
-Proving Qtile is underrated. Scripting your whole WM in Python is a superpower.
-`by Darkkal44`
+---
 
-### [Bixer234/Dots](https://github.com/Bixer234/Dots)
-A Hyprland setup built for fun and personal use. Simple and honest.
-`by Bixer234`
+### Sway
 
-### [zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft)
-A meticulously crafted Hyprland setup for Arch, focused on aesthetics, consistency, and usability.
-`by zhaleff`
+> Tiling done right — for those who want i3 on Wayland without the extras.
 
-### [vyrx-dev/symphony](https://github.com/vyrx-dev/symphony.git)
-A minimal, productivity-focused Arch + Hyprland setup that vyrx-dev wished already existed.
-`by vyrx-dev`
+| Setup | Author | Highlights |
+|---|---|---|
+| [vyrx-dev/dotfiles](https://github.com/vyrx-dev/dotfiles.git) | `vyrx-dev` | Deliberately boring · dev-focused · this is where you actually get things done |
 
-### [zhaleff/BlackNode](https://github.com/zhaleff/BlackNode)
-Dark, minimalist Hyprland with charcoal backgrounds and sharp contrast. No bloat, just a polished daily driver.
-`by zhaleff`
+<br>
 
-### [caioax/lyne-dots](https://github.com/caioax/lyne-dots)
-Full Arch + Hyprland desktop with custom Quickshell components and the distinctive Lyne aesthetic.
-`by caioax`
+---
 
-### [notcandy001/Moonveil](https://github.com/notcandy001/Moonveil)
-A calm Hyprland setup built for real workflow, tuned by hand with a barcode-style lockscreen.
-`by notcandy001`
+### Qtile
 
-### [linuxmobile/hyprland-dots](https://github.com/linuxmobile/hyprland-dots)
-linuxmobile's first Hyprland rice built around a Rosé Pine palette. A classic.
-`by linuxmobile`
+> Python as a WM config language. More power than you expect.
 
-### [leaf — Hyprland Aura Soft](https://github.com)
-Hyprland built around the Aura aesthetic in a soft palette — gentle tones, quietly elegant.
-`by leaf`
+| Setup | Author | Highlights |
+|---|---|---|
+| [cr1ogen/cr1odots](https://github.com/cr1ogen/cr1odots) | `cr1ogen` | Qtile on Wayland · Richfetch · Kitty · mpv · cava |
 
-### [leaf — caelestiax](https://github.com/Axenide/Ambxst)
-Caelestiax frame with AI modules and extra integrations running on Hyprland.
-`by leaf`
+<br>
 
-### [leaf — hyprland retro](https://github.com/Axenide/Ambxst)
-The Ambxst shell in a retro frame — a nostalgic take on the Hyprland desktop.
-`by leaf`
+---
 
-### [cybersnake223/Hypr](https://github.com/Cybersnake223/Hypr)
-Minimal, keyboard-driven Hyprland dotfiles for Arch. Laptop-first. Script-heavy. Zero bloat.
-`by cybersnake223`
+### KDE
 
-### [aloy555 — AM i A psYcHo?](https://working_on_it.com)
-Everything themed around a psycho aesthetic, including a custom-made wallpaper.
-`by aloy555`
+> Full-featured, deeply customizable. Catppuccin makes it sing.
 
-### [linuxmobile — Old Hyprland Rice](https://github.com/linuxmobile/hyprland-dots)
-An older Hyprland iteration from linuxmobile, already showing the attention to detail that defined later setups.
-`by linuxmobile`
+| Setup | Author | Highlights |
+|---|---|---|
+| [Jotalea — I love catppuccin](https://catppuccin.com) | `Jotalea` | Catppuccin on KDE Plasma · Discord · Kitty · and yes, even Minecraft |
 
-### [AdiKsOnDev/Monoland](https://github.com/AdiKsOnDev/Monoland)
-Monochromatic Hyprland rice with Quickshell widgets, MaterialUI-style components, and dynamic color detection from the wallpaper.
-`by AdiKsOn`
+<br>
 
-### [Grey-007/Hyprmat-dots](https://github.com/Grey-007/Hyprmat-dots)
-Hyprmat, a Hyprland rice on Arch.
-`by Grey-007`
+---
 
-### [binoymanoj/dotfiles](https://github.com/binoymanoj/dotfiles)
-HyprArch Dots, a Hyprland setup on Arch.
-`by anonymous`
+### Niri
 
-### [krishna4a6av/.config](https://github.com/krishna4a6av/.config)
-Generic but mine. Walls: [krishna4a6av/Wallpapers](https://github.com/krishna4a6av/Wallpapers).
-`by anonymous`
+> A scrollable tiling compositor. Still niche, already impressive.
 
-### [doccnova/serene-hyprland](https://codeberg.org/doccnova/serene-hyprland)
-Artix-centered Hyprland rice with GNU Stow, dynamic colors via Matugen and Wallust, and a special scratchpad workspace.
-`by doccnova`
+| Setup | Author | Highlights |
+|---|---|---|
+| [SpasaevDonut/ruby_quickshell_rice](https://github.com/SpasaevDonut/ruby_quickshell_rice) | `TuJluGPaM` | Niri worron/Ruby wannabe · AwesomeWM rice ported to Wayland · heavily vibecoded |
+| [AyushKr2003/niri-caelestia-shell](https://github.com/AyushKr2003/niri-caelestia-shell) | `AyushKr2003` | Caelestia shell on Niri · config editor · battery monitor · clipboard manager · Niri IPC dashboard |
 
-&nbsp;
+<br>
 
-#
-## Sway
+---
 
-### [vyrx-dev/dotfiles](https://github.com/vyrx-dev/dotfiles.git)
-A deliberately boring Sway setup focused on development work. This is where you actually get things done.
-`by vyrx-dev`
+### dwm
 
-&nbsp;
+> Suckless philosophy. Patch it, own it.
 
-#
-## Qtile
+| Setup | Author | Highlights |
+|---|---|---|
+| [linuxmobile — DWM old rice](https://github.com/linuxmobile) | `linuxmobile` | An early dwm rice from linuxmobile · part of a long history of setups |
 
-### [cr1ogen/cr1odots](https://github.com/cr1ogen/cr1odots)
-Qtile on Wayland, Debian. Richfetch on Kitty, mpv player, and cava.
-`by cr1ogen`
+<br>
 
-&nbsp;
+---
 
-#
-## KDE
+### AwesomeWM
 
-### [Jotalea — I love catppuccin](https://catppuccin.com)
-Catppuccin applied to KDE Plasma, Discord, Kitty, and basically every app — even Minecraft.
-`by Jotalea`
+> Lua-configured, event-driven, timeless.
 
-&nbsp;
+| Setup | Author | Highlights |
+|---|---|---|
+| [linuxmobile — Awesome WM](https://github.com/linuxmobile) | `linuxmobile` | Old AwesomeWM rice · simple and clean |
 
-#
-## Niri
+<br>
 
-### [SpasaevDonut/ruby_quickshell_rice](https://github.com/SpasaevDonut/ruby_quickshell_rice)
-Niri worron/Ruby wannabe — a replication of an existing AwesomeWM rice, ported to Wayland and heavily vibecoded.
-`by TuJluGPaM`
+---
 
-### [AyushKr2003/niri-caelestia-shell](https://github.com/AyushKr2003/niri-caelestia-shell)
-Caelestia shell ported to Niri, with a config editor, battery monitor, enhanced workspace bar, clipboard manager, and Niri IPC dashboard.
-`by AyushKr2003`
+### Other
 
-&nbsp;
+> Openbox, retro setups, and community history.
 
-#
-## dwm
+| Setup | Author | Highlights |
+|---|---|---|
+| [linuxmobile — old rice with openbox](https://github.com/linuxmobile) | `linuxmobile` | An old Openbox rice |
+| [linuxmobile — openbox & android old rice](https://github.com/linuxmobile) | `linuxmobile` | One of the first rices shared in r/unixporn · a piece of history |
 
-### [linuxmobile — DWM old rice](https://github.com/linuxmobile)
-An early dwm rice from linuxmobile. Part of a long history of setups.
-`by linuxmobile`
+<br>
 
-&nbsp;
+---
 
-#
-## AwesomeWM
+<br>
 
-### [linuxmobile — Awesome WM](https://github.com/linuxmobile)
-An old AwesomeWM rice from linuxmobile. Simple and clean.
-`by linuxmobile`
+## ❄️ NixOS
 
-&nbsp;
+> Declarative, reproducible, and increasingly beautiful. The future of dotfiles?
 
-#
-## Other
+| Setup | Author | Highlights |
+|---|---|---|
+| [chriztinkrz/nixos-config](https://github.com/chriztinkrz/nixos-config) | `chriztinkrz` | Personal NixOS config · Hyprland · minimal and consistent |
+| [yutkat/dotfiles](https://github.com/yutkat/dotfiles) | `yutkat` | Hyprland + Waybar on NixOS · well-crafted and understated |
+| [linuxmobile — Old Gnome Rice on NixOS](https://github.com/linuxmobile/shin) | `linuxmobile` | Old GNOME rice · linuxmobile's NixOS era |
+| [linuxmobile — Old NixOS rice](https://github.com/linuxmobile/shin) | `linuxmobile` | First NixOS rice with Hyprland · where it all started on Nix |
+| [ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration) | `@ilyamiro` | NixOS + Hyprland · installer works on Arch-based distros too |
+| [ORFLEM/just_enough_shell](https://github.com/ORFLEM/just_enough_shell/tree/main) | `_ORFLEM_` | SwayFX/Hyprland · everyday practicality, not trends · Quickshell + plugin system |
 
-### [linuxmobile — old rice with openbox](https://github.com/linuxmobile)
-An old Openbox rice from linuxmobile.
-`by linuxmobile`
+<br>
 
-### [linuxmobile — openbox & android old rice](https://github.com/linuxmobile)
-One of the first rices linuxmobile shared in the unixporn community. A piece of history.
-`by linuxmobile`
+---
 
-&nbsp;
+<br>
 
-#
-# NixOS
+## 🚀 EndeavourOS
 
-### [chriztinkrz/nixos-config](https://github.com/chriztinkrz/nixos-config)
-Personal NixOS config with Hyprland and custom dotfiles. Minimal and consistent.
-`by chriztinkrz`
+> The friendliest path to Arch. Still gets great rices.
 
-### [yutkat/dotfiles](https://github.com/yutkat/dotfiles)
-Clean Hyprland + Waybar setup on NixOS. Well-crafted and understated.
-`by yutkat`
+| Setup | Author | Highlights |
+|---|---|---|
+| [LofiGhoul/Dotfiles](https://github.com/LofiGhoul/Dotfiles/tree/Spring-aestethic) | `LofiGhoul` | Hillside Reverie · cozy spring Hyprland theme · calming colors |
+| [anonymous — Sway](https://github.com) | `anonymous` | Sway on EndeavourOS · bash · Inter · Kitty |
 
-### [linuxmobile — Old Gnome Rice on NixOS](https://github.com/linuxmobile/shin)
-An old GNOME rice from linuxmobile's NixOS era.
-`by linuxmobile`
+<br>
 
-### [linuxmobile — Old NixOS rice](https://github.com/linuxmobile/shin)
-linuxmobile's first NixOS rice with Hyprland. Where it all started on Nix.
-`by linuxmobile`
+---
 
-### [ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration)
-NixOS + Hyprland config with an installer that also works on Arch-based distros.
-`by @ilyamiro`
+<br>
 
-### [ORFLEM/just_enough_shell](https://github.com/ORFLEM/just_enough_shell/tree/main)
-SwayFX/Hyprland shell built for everyday practicality, not trends. Quickshell-based with a simple plugin system.
-`by _ORFLEM_`
+## 🎩 Fedora
 
-&nbsp;
+> Corporate polish, community spirit. RPM, SELinux, and some lovely rices.
 
-#
-# EndeavourOS
+| Setup | Author | Highlights |
+|---|---|---|
+| [AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell) | `anonymous` | Hyprland + NibrasShell · personalized workflow · unconventional UI elements |
 
-### [LofiGhoul/Dotfiles](https://github.com/LofiGhoul/Dotfiles/tree/Spring-aestethic)
-Hillside Reverie, a cozy spring Hyprland theme with calming colors and a relaxed visual atmosphere.
-`by LofiGhoul`
+<br>
 
-### [anonymous — Sway](https://github.com)
-A Sway setup on EndeavourOS. bash, Inter, kitty.
-`by anonymous`
+---
 
-&nbsp;
+<br>
 
-#
-# Fedora
+## ⚡ Void Linux
 
-### [AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell)
-A unique Hyprland desktop built around NibrasShell with a personalized workflow and unconventional UI elements.
-`by anonymous`
+> No systemd. Fast. Rare. Rices here have character.
 
-&nbsp;
+| Setup | Author | Highlights |
+|---|---|---|
+| [szorfein/dotfiles](https://github.com/szorfein/dotfiles) | `Szorfein` | SwayFX + Eww widgets · a rare and distinctive combination |
+| [Nizarjh/dots](https://github.com/Nizarjh/dots) | `Nizarjh` | Hyprland · Waybar · Wofi · running on Void Linux |
 
-#
-# Void Linux
+<br>
 
-### [szorfein/dotfiles](https://github.com/szorfein/dotfiles)
-A polished SwayFX rice with Eww widgets on Void Linux. A rare and distinctive combination.
-`by Szorfein`
+---
 
-### [Nizarjh/dots](https://github.com/Nizarjh/dots)
-A based Hyprland rice with Waybar and Wofi running on Void Linux.
-`by Nizarjh`
+<br>
 
-&nbsp;
+## 🐋 Debian
 
-#
-# Debian
+> The universal OS. Stable, trusted, and yes, it can look great too.
 
-### [cr1ogen/cr1odots](https://github.com/cr1ogen/cr1odots)
-Qtile on Wayland with Richfetch, mpv, and cava.
-`by cr1ogen`
+| Setup | Author | Highlights |
+|---|---|---|
+| [cr1ogen/cr1odots](https://github.com/cr1ogen/cr1odots) | `cr1ogen` | Qtile on Wayland · Richfetch · mpv · cava |
 
-&nbsp;
+<br>
 
-#
-# Contributing
+---
 
-Want to add your setup? Submit it on **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)** — screenshot, palette, dotfiles link and all. Once approved it shows up both on the site and here.
+<br>
+
+## ✦ Contributing
+
+Want your setup in here? Submit it at **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)** with a screenshot, color palette, and dotfiles link. Once approved it shows up on the site *and* in this index.
+
+```
+submit → get reviewed → appear in the gallery + this README
+```
+
+<br>
+
+<div align="center">
+
+made with ♥ by the community · [website](https://awesome-dotfiles.web.app) · [submit your dots](https://awesome-dotfiles.web.app)
+
+</div>
+
