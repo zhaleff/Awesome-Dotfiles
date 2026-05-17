@@ -13,9 +13,9 @@ export default function Gallery() {
       >
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
           <div>
-            <p className="text-[11px] uppercase tracking-[0.25em] text-[#e8ff47] mb-4">Gallery</p>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-accent mb-4">Gallery</p>
             <h1 className="text-5xl sm:text-7xl tracking-[-0.04em] leading-[0.9] text-white">
-              All rices,<br />
+              Dotfiles <span className='text-accent'>Gallery</span><br />
             </h1>
           </div>
           <p className="text-sm text-white/30 max-w-xs leading-relaxed lg:mb-2">

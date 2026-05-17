@@ -66,19 +66,7 @@ export default function Home() {
         transition={{ duration: 0.5, delay: 0.15 }}
         className="pb-28"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/5 rounded-2xl overflow-hidden mb-20">
-          {[
-            { num: '01', title: 'Submit', desc: 'Upload a screenshot and fill in your setup details. Takes two minutes.' },
-            { num: '02', title: 'Review', desc: 'Every submission is manually reviewed before going live.' },
-            { num: '03', title: 'Discover', desc: 'Browse, filter, and vote on setups from the community.' },
-          ].map(({ num, title, desc }) => (
-            <div key={num} className="bg-[#0e0e10] p-8 flex flex-col gap-3">
-              <span className="text-[11px] font-mono text-accent">{num}</span>
-              <p className="text-sm text-white">{title}</p>
-              <p className="text-xs text-white/30 leading-relaxed">{desc}</p>
-            </div>
-          ))}
-        </div>
+
 
         <div className="flex items-center justify-between mb-8">
           <p className="text-sm text-white/40">Recent submissions</p>

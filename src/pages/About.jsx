@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import Typewriter from 'typewriter-effect'
 
 export default function About() {
   return (
@@ -13,24 +12,14 @@ export default function About() {
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         className="mb-28"
       >
-        <p className="text-[11px] font-medium uppercase tracking-[0.25em] text-[#e8ff47] mb-6">About</p>
+        <p className="text-[11px] font-medium uppercase tracking-[0.25em] text-accent mb-6">About</p>
         <div className="flex flex-col lg:flex-row lg:items-end gap-12">
           <div className="flex-1">
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-medium tracking-[-0.05em] leading-[0.9] text-white mb-0">
-              Built for
+              About <br /> <span className="text-accent">This Proyect</span>
             </h1>
             <div className="text-6xl sm:text-7xl lg:text-8xl font-medium tracking-[-0.05em] leading-[0.9] text-[#e8ff47] mt-1">
-              <Typewriter
-                options={{
-                  strings: ['ricers.', 'you.', 'the community.', 'dotfiles.', 'Linux.'],
-                  autoStart: true,
-                  loop: true,
-                  delay: 65,
-                  deleteSpeed: 45,
-                  wrapperClassName: 'font-medium',
-                  cursorClassName: 'text-[#e8ff47]',
-                }}
-              />
+
             </div>
           </div>
         </div>
@@ -73,8 +62,8 @@ export default function About() {
         className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-16 mb-28"
       >
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/20 mb-1">02</p>
-          <h2 className="text-2xl font-bold text-white tracking-tight">How it's built</h2>
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/20 mb-1">02</p>
+          <h2 className="text-2xl font-medium text-white tracking-tight">How it's built</h2>
         </div>
         <div className="flex flex-col gap-8">
           <p className="text-sm text-white/35 leading-relaxed">
@@ -83,11 +72,11 @@ export default function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { layer: 'Frontend', tech: 'React + Vite', detail: 'Fast builds, lazy loaded routes' },
-              { layer: 'Database', tech: 'Firebase Firestore', detail: 'Real-time NoSQL, composite indexes' },
+              { layer: 'Database', tech: 'SupaBase', detail: 'Real-time NoSQL, composite indexes' },
               { layer: 'Images', tech: 'UploadCare', detail: 'CDN delivery, unsigned uploads' },
               { layer: 'Styling', tech: 'Tailwind CSS v4', detail: 'CSS variables, @theme directive' },
               { layer: 'Animations', tech: 'Framer Motion', detail: 'Entrance animations, transitions' },
-              { layer: 'Hosting', tech: 'Firebase Hosting', detail: 'Global CDN, SSL included' },
+              { layer: 'Hosting', tech: 'Vercel Hosting', detail: 'Global CDN, SSL included' },
             ].map(({ layer, tech, detail }) => (
               <div key={layer} className="flex flex-col gap-1 p-4 rounded-xl bg-white/[0.03] border border-white/5 hover:border-white/10 transition-colors group">
                 <div className="flex items-center justify-between">
@@ -100,7 +89,32 @@ export default function About() {
           </div>
         </div>
       </motion.div>
+      <div className="border-t border-white/5 mb-28" />
 
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
+        className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-16 mb-28"
+      >
+        <div>
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/20 mb-1">03</p>
+          <h2 className="text-2xl font-medium text-white tracking-tight">how does it help?</h2>
+        </div>
+        <div className="flex flex-col gap-5">
+          <p className="text-base text-white/50 leading-relaxed">
+            Here you can find various dotfiles created by the community. You can definitely find inspiration in them; everyone has their own ricing style. You can even go beyond simply trying them out and modify them to your liking. No more asking someone else for their configuration; upload your own configuration right here and share it with the world. Easy to upload, easy to view, no cookies, no registration, nothing.
+          </p>
+
+          <div className="flex flex-wrap gap-3 pt-2">
+            {['Community driven', 'Manually reviewed', 'No accounts needed', 'Always free'].map((tag) => (
+              <span key={tag} className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/8 text-xs text-white/40">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      </motion.div>
       <div className="border-t border-white/5 mb-28" />
 
       <motion.div

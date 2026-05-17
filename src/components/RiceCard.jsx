@@ -19,7 +19,7 @@ export default function RiceCard({ rice, index = 0 }) {
             <img
               src={rice.image_url}
               alt={rice.title}
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.05]"
+              className="w-full h-full object-cover  group-hover:scale-[1.05]"
               loading="lazy"
             />
           ) : (
@@ -47,15 +47,15 @@ export default function RiceCard({ rice, index = 0 }) {
           </h3>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-5 h-5 rounded-md bg-white/5 border border-white/8 flex items-center justify-center text-[9px] font-semibold text-[#e8ff47]/80">
+              <div className="w-5 h-5 rounded-md bg-white/5 border border-white/8 flex items-center justify-center text-[9px] font-semibold text-accent/80">
                 {rice.author?.[0]?.toUpperCase() ?? '?'}
               </div>
-              <span className="text-xs text-white/25 group-hover:text-white/50 transition-colors duration-200">
+              <span className="text-xs text-white/25 group-hover:text-white/50">
                 {rice.author ?? 'anonymous'}
               </span>
             </div>
             <div className="flex items-center gap-3 text-[11px] text-white/15">
-              <span className="group-hover:text-[#e8ff47]/60 transition-colors duration-200">↑ {rice.likes ?? 0}</span>
+              <span className="group-hover:text-accent ">↑ {rice.likes ?? 0}</span>
               {date && <span>{formatDistanceToNow(date, { addSuffix: true })}</span>}
             </div>
           </div>
