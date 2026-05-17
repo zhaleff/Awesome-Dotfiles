@@ -11,8 +11,10 @@
 
 <br>
 
-> Every screenshot, full color palette, and setup detail lives at **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)**
+> Every screenshot, full color palette, and setup detail lives at **[awesome-dotfiles.vercel.app](https://awesome-dotfiles.vercel.app)**
 > This README is the index — the gallery is the destination.
+> Want pretty wallpapers? Use **[github.com/0xnotkyo/walls](https://github.com/0xnotkyo/walls
+> In this readme you can find different dotfiles and ricings created by the community. If they could create theirs, what's stopping you from creating yours?
 
 </div>
 
