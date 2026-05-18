@@ -1,6 +1,7 @@
+
 # Awesome Dotfiles — Project Documentation
 
-This is the official repository for Awesome Dotfiles, a community gallery for Linux desktop configurations. If you want to contribute or spot something broken, feel free to reach out or open a PR. Help is always welcome. Unsolicited criticism of personal decisions is not.
+This is the official repository for Awesome Dotfiles, a community gallery for Linux desktop configurations. If you want to contribute or spot something broken, feel free to reach out or open a PR. Help is always welcome. 
 
 One thing worth noting upfront: most of the early commit history looks sparse because I had been working on this locally without Git for a while. When I finally pushed, a large portion of the codebase was already functional. That's the whole story behind it — no mystery, just a different workflow.
 
@@ -41,19 +42,18 @@ The frontend is built with React using JSX. Vite handles the build tooling. It g
 
 Styling is done entirely with Tailwind CSS, specifically version 4, which introduces the `@theme` directive for defining design tokens directly in CSS. There are no separate CSS files for individual components — everything is handled through utility classes. Custom colors, fonts, and spacing are defined once in `src/index.css` under `@theme` and referenced throughout the project using CSS variables.
 
-## Firebase Firestore
+## SupaBase
 
-All submission data is stored in Firestore, Google's NoSQL document database. Each submitted rice is a document in a `rices` collection with fields like `title`, `author`, `wm`, `distro`, `palette`, `imageUrl`, `status`, `views`, `likes`, `dislikes`, and `totalVotes`. The `status` field controls visibility — submissions start as `pending` and only appear in the public gallery once approved.
+All submission data is stored in Firestore, Google's NoSQL document database. Each submitted rice is a document in a `rices` collection with fields like `title`, `author`, `wm`, `distro`, `palette`, `image_Url`, `status`, `views`, `likes`, `dislikes`, and `totalVotes`. The `status` field controls visibility — submissions start as `pending` and only appear in the public gallery once approved.
 
-Firestore requires composite indexes for queries that combine `where` and `orderBy` on different fields. These are created directly from the Firebase Console when a query fails and provides a direct link to generate the index.
 
-## Firebase Authentication
+## SupaBase Auth
 
 The admin panel at `/admin` is protected by Firebase Authentication using email and password. There is only one admin account. The `AuthContext` provider wraps the entire app and exposes the current user state. Protected routes redirect to `/admin/login` when no authenticated user is found.
 
-## Firebase Hosting
+## Vercel Hosting
 
-The project is deployed on Firebase Hosting, which provides global CDN distribution and automatic SSL. Deployment is handled manually — there is no CI/CD pipeline. When a new version is ready, it gets built and pushed.
+This project uses Vercel as its primary hosting provider, both for SSL and other things. We use Vercel because Firebase is a bit of a liability in many ways. Vercel will be the default hosting provider; a custom domain will be added soon.
 
 ## Uploadcare
 
@@ -86,16 +86,16 @@ src/
 │   ├── RiceCard.jsx  Single gallery card
 │   └── RiceGrid.jsx  Full gallery with filters and sorting
 ├── context/
-│   └── AuthContext.jsx  Firebase auth state provider
+│   └── AuthContext.jsx  SupaBase auth state provider
 ├── lib/
-│   ├── firebase.js   Firestore + Auth initialization
+│   ├── firebase.js   SupaBase + Auth initialization
 │   └── uploadcare.js Image upload helper
 └── pages/
     ├── Home.jsx       Landing page with hero and gallery
     ├── About.jsx      About for this project
     ├── Submit.jsx     Submission form
-    ├── Submit.jsx     Theme section 
-    ├── Submit.jsx     Guide to creating your own dotfiles (area still under development) 
+    ├── Theme.jsx     Theme section 
+    ├── Wiki.jsx     Guide to creating your own dotfiles (area still under development) 
     ├── RiceDetail.jsx Individual rice page with votes
     ├── Admin.jsx      Moderation panel (protected)
     └── AdminLogin.jsx Authentication page
@@ -113,34 +113,18 @@ The public gallery only queries documents where `status == 'approved'`, so nothi
 
 &nbsp;
 
-# Voting System
 
-Each rice detail page includes a like and dislike button. Votes are stored in Firestore as `likes`, `dislikes`, and `totalVotes` fields on the document. A user's vote is persisted in `localStorage` to prevent double voting — if the browser cache is cleared, the restriction resets, which is an intentional tradeoff given there are no user accounts.
 
-Changing a vote (from like to dislike or vice versa) correctly adjusts both counters in a single Firestore update. Undoing a vote decrements the relevant counter and removes the `localStorage` entry.
-
-The `totalVotes` field exists specifically to support the "Trending" sort order, since Firestore cannot sort by computed values on the fly.
-
-&nbsp;
-
-# View Counting
-
-Views are incremented by one each time a rice detail page is opened. Like votes, view counts are guarded by `localStorage` — a rice's view count only increases once per device. The increment happens silently in the background using `updateDoc` with `increment(1)` and does not block the page from loading.
-
-&nbsp;
 
 # Environment Variables
 
 The project uses Vite's environment variable system. All sensitive keys live in a `.env` file at the project root and are never committed to the repository. Variables must be prefixed with `VITE_` to be accessible in the browser.
 
 ```
-VITE_FIREBASE_API_KEY
-VITE_FIREBASE_AUTH_DOMAIN
-VITE_FIREBASE_PROJECT_ID
-VITE_FIREBASE_MESSAGING_SENDER_ID
-VITE_FIREBASE_APP_ID
-VITE_CLOUDINARY_CLOUD_NAME
-VITE_CLOUDINARY_UPLOAD_PRESET
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_UPLOADCARE_PUBLIC_KEY=
+VITE_UPLOADCARE_CDN_BASE=
 ```
 
 &nbsp;
@@ -154,9 +138,9 @@ The database rules enforce that anyone can read approved rices, anyone can creat
 # Running Locally
 
 ```bash
-git clone https://github.com/your-username/awesome-dotfiles
-cd awesome-dotfiles
-npm install --legacy-peer-deps
+git clone https://github.com/zhaleff/AwesomeDotfiles
+cd AwesomeDotfiles
+npm install 
 ```
 
 Create a `.env` file with your Firebase and Cloudinary credentials, then:
@@ -165,5 +149,4 @@ Create a `.env` file with your Firebase and Cloudinary credentials, then:
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
-
+The app will be available at `http://localhost`.
