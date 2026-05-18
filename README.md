@@ -14,7 +14,6 @@
 
 </div>
 
----
 
 ## Contents
 
@@ -27,7 +26,6 @@
 - [**Debian**](#-debian)
 - [**Contributing**](#-contributing)
 
----
 
 <br>
 
@@ -67,7 +65,6 @@
 
 <br>
 
----
 
 ### Sway
 
@@ -79,7 +76,6 @@
 
 <br>
 
----
 
 ### Qtile
 
@@ -91,7 +87,6 @@
 
 <br>
 
----
 
 ### KDE
 
@@ -103,7 +98,7 @@
 
 <br>
 
----
+
 
 ### Niri
 
@@ -116,7 +111,6 @@
 
 <br>
 
----
 
 ### dwm
 
@@ -128,7 +122,6 @@
 
 <br>
 
----
 
 ### AwesomeWM
 
@@ -140,7 +133,6 @@
 
 <br>
 
----
 
 ### Other
 
@@ -153,7 +145,6 @@
 
 <br>
 
----
 
 <br>
 
@@ -172,7 +163,6 @@
 
 <br>
 
----
 
 <br>
 
@@ -187,7 +177,6 @@
 
 <br>
 
----
 
 <br>
 
@@ -200,8 +189,6 @@
 | [AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell) | `anonymous` | Hyprland + NibrasShell · personalized workflow · unconventional UI elements |
 
 <br>
-
----
 
 <br>
 
@@ -216,7 +203,6 @@
 
 <br>
 
----
 
 <br>
 
@@ -230,7 +216,6 @@
 
 <br>
 
----
 
 <br>
 
