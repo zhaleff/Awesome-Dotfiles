@@ -1,7 +1,3 @@
-<div align="center">
-
-<img width="1348" height="688" alt="awesome-logo" src="https://github.com/user-attachments/assets/f6dc10de-2901-4995-a5d6-933842294f46" />
-
 
 ### `~/dotfiles` — a curated gallery of Linux desktop setups
 
